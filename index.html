@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <meta name="description" content="Moja pierwsza aplikacja Hello World — na komputer i telefon.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Hello World 👋</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <span class="badge">MOJA PIERWSZA APLIKACJA</span>
+    <div class="wave" aria-hidden="true">👋</div>
+    <h1>Hello, world!</h1>
+    <p>Mały początek. Dużo możliwości.<br>Twoja aplikacja na komputer i telefon.</p>
+    <button id="hello" type="button">Przywitaj się</button>
+    <p id="message" role="status" aria-live="polite">Kliknij i zobacz, co się stanie.</p>
+    <button id="install" class="secondary" type="button" hidden>Zainstaluj aplikację</button>
+    <details>
+      <summary>Dodaj na telefon</summary>
+      <p>Android: w menu Chrome wybierz „Zainstaluj aplikację” lub „Dodaj do ekranu głównego”.<br>iPhone: otwórz stronę w Safari, wybierz Udostępnij → Dodaj do ekranu początkowego.</p>
+    </details>
+    <footer>Zbudowane z ciekawości ✨</footer>
+  </main>
+</body>
+</html>
